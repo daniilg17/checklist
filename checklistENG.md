@@ -4,7 +4,7 @@
 This checklist was created as part of a test task for a QA position.  
 The goal is to test the first screen of the insurance form. All checks are structured, prioritized, and accompanied by expected results.
 
-## 1. Visual Interface
+## 1. Visual Interface (Priority - High)
 - The banner is displayed correctly, without distortion.  
 **Expected result:** The banner loads fully, without cropping, blurring, or distortion at all resolutions.
 - The page title is displayed correctly.  
@@ -24,7 +24,7 @@ The goal is to test the first screen of the insurance form. All checks are struc
 - The cursor changes to pointer when hovering over clickable elements.  
 **Expected result:** On hover, the cursor changes to pointer for buttons/links.
 
-## 2. Input Fields
+## 2. Input Fields (Priority - High)
 ### 2.1 General Field Checks
 - Check inserting values from clipboard.  
 **Expected result:** Only valid values can be pasted.
@@ -113,7 +113,7 @@ The goal is to test the first screen of the insurance form. All checks are struc
 - Server responds correctly.  
 **Expected result:** Valid HTTP response code from server.
 
-## 3. Checkboxes
+## 3. Checkboxes (Priority - Medium)
 - Clickable.  
 **Expected result:** Clicking changes state.
 - Actual state is shown.  
@@ -125,7 +125,7 @@ The goal is to test the first screen of the insurance form. All checks are struc
 - Network tab shows checkbox values.  
 **Expected result:** Value sent as true/false or 1/0 in request body.
 
-## 4. Validation and Errors
+## 4. Validation and Errors (Priority - High)
 - Real-time validation.  
 **Expected result:** Leaving field with error shows highlight and message.
 - Clear, visible error messages.  
@@ -141,7 +141,7 @@ The goal is to test the first screen of the insurance form. All checks are struc
 - No Console (DevTools) errors.  
 **Expected result:** No errors during input/validation.
 
-## 5. “See Offers” Button
+## 5. “See Offers” Button (Priority - High)
 - Changes style and cursor on hover.  
 **Expected result:** Cursor becomes pointer, color changes.
 - No request sent with invalid/empty fields; shows errors.  
@@ -151,14 +151,14 @@ The goal is to test the first screen of the insurance form. All checks are struc
 - No duplicate request on repeat click.  
 **Expected result:** No duplicate calls in Network tab.
 
-## 6. Security
+## 6. Security (Priority - High)
 - HTTPS protocol.  
 **Expected result:** Page loads via https://, no browser warnings.
 - Test XSS and SQL injection.  
 **Expected result:** Input is shown as text, not executed.
 - Scripts in fields should not execute.
 
-## 7. Responsiveness
+## 7. Responsiveness (Priority - Medium)
 - Proper display at various resolutions (1920x1080, 1440x900, 1024x768, 768x1024, 374x667).  
 **Expected result:** All elements visible, no overlapping.
 - Cross-browser compatibility.  
@@ -170,7 +170,7 @@ The goal is to test the first screen of the insurance form. All checks are struc
 - Screen rotation on phone.  
 **Expected result:** Layout adapts correctly.
 
-## 8. Accessibility
+## 8. Accessibility (Priority - Low)
 - Tab navigation.  
 **Expected result:** Can navigate all fields and buttons with keyboard.
 - Focus on active elements.  
@@ -178,7 +178,7 @@ The goal is to test the first screen of the insurance form. All checks are struc
 - Screen reader check.  
 **Expected result:** Fields and buttons are read out properly.
 
-## 9. Postman
+## 9. Postman (Priority - High)
 - Test API with manual POST.  
 **Expected result:** Server returns 2xx OK for valid data, 4xx for errors.
 - Server-side validation.  
@@ -190,6 +190,6 @@ The goal is to test the first screen of the insurance form. All checks are struc
 - Check headers and authorization.  
 **Expected result:** Server handles tokens correctly.
 
-## 10. Performance
+## 10. Performance (Priority - Medium)
 - First screen load time (DevTools Performance).  
 **Expected result:** FCP is less than 2 seconds.
