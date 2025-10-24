@@ -1,30 +1,26 @@
-# Checklist
-### QA checklist for form testing (test task project).
+# 📋 Чек-лист
 
-📚 Project Description 
-This project is a test assignment for manual testing of a user interface.  
-As part of the task, a highly detailed checklist was created for the web page screen to test its visual components, validation, input fields, accessibility, security, and other aspects.
+### QA чек-лист для тестирования формы (тестовое задание)
 
-The project does not contain any code — it features the checklist itself as a demonstration of testing skills.
+📚 **Описание проекта**
+Этот проект представляет собой тестовое задание по ручному тестированию пользовательского интерфейса.
+В рамках задания был создан детализированный чек-лист для проверки веб-страницы — он охватывает визуальные компоненты, валидацию, поля ввода, доступность, безопасность и другие аспекты.
 
-### 📋 Task 
+Проект не содержит кода — он демонстрирует именно навыки тестирования и составления тестовой документации.
 
-Link to the page that needs to be tested: 
-https://widgets.inssmart.ru/contract/mortgage/?appId=79f46bfb-d4ba-50aa-8269-7289dd16700c&secret=6ca520c0-328b-5b65-ab5c-b41332a3e667
+---
 
-Create a list of checks (checklist), grouped in a hierarchical list format, for the page that would be sufficient for releasing the product to production.  
-Specify priorities and expected results.
+### 🧩 **Задача**
 
-### 📄 Checklist (Hierarchical List)
+Ссылка на страницу, которую нужно протестировать:
+[https://widgets.inssmart.ru/contract/mortgage/?appId=79f46bfb-d4ba-50aa-8269-7289dd16700c&secret=6ca520c0-328b-5b65-ab5c-b41332a3e667](https://widgets.inssmart.ru/contract/mortgage/?appId=79f46bfb-d4ba-50aa-8269-7289dd16700c&secret=6ca520c0-328b-5b65-ab5c-b41332a3e667)
 
-- [English version](https://github.com/daniilg17/checklist/blob/main/checklistENG.md)  
-- [Russian version](https://github.com/daniilg17/checklist/blob/main/checklistRU.md)  
+Необходимо составить список проверок (чек-лист), сгруппированный в иерархическом формате, который будет достаточен для вывода продукта в продакшн.
+Для каждой проверки указать приоритет и ожидаемый результат.
 
-### 📊 Alternative Solution
+---
 
-I adapted the checklists into a tabular format (Google Sheets).
+### 📄 **[Чек-лист (иерархический список)](https://github.com/daniilg17/checklist/blob/main/checklistRU.md)**
 
-Tabular Checklist   
-- [Google Sheet (English)](https://docs.google.com/spreadsheets/d/1jxZpF1-TgFR9OgQOBY8_DompBMka2WsImFaOVsYTLFI/edit?usp=sharing)  
-- [Google Sheet (Russian)](https://docs.google.com/spreadsheets/d/1Kf0AFnrBmiFGwoahM5h-4nB6201ilq0LZr0W_5ssMxk/edit?usp=sharing)  
- 
+### 📊 **[Альтернативное решение: Табличный чек-лист](https://docs.google.com/spreadsheets/d/1Kf0AFnrBmiFGwoahM5h-4nB6201ilq0LZr0W_5ssMxk/edit?usp=sharing)**
+
